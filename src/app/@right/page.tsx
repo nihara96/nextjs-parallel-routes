@@ -7,7 +7,7 @@ const Right = async () => {
     const value = Math.random(); 
 
   return (
-    <div className='bg-red-400 h-screen'>Right: {value}</div>
+    <div className='bg-red-400 flex justify-center items-center h-screen text-3xl'>Right: {value}</div>
   )
 }
 

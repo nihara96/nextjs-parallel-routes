@@ -7,7 +7,7 @@ const Left = async () => {
     const value = Math.random(); 
 
   return (
-    <div className='bg-blue-400 h-screen'>Left: {value}</div>
+    <div className='bg-blue-400 flex justify-center items-center h-screen text-3xl'>Left: {value}</div>
   )
 }
 

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Loading = () => {
   return (
-    <div>Loading Main</div>
+    <div className='flex justify-center items-center h-screen text-3xl'>Loading Main</div>
   )
 }
 

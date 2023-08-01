@@ -5,5 +5,5 @@ export default async function Home() {
 
   const value = Math.random();
 
-  return <div className="bg-black h-screen text-white">Main: {value}</div>;
+  return <div className="bg-black flex justify-center items-center h-screen text-3xl text-white">Main: {value}</div>;
 }
